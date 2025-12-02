@@ -1,11 +1,11 @@
-package main
+package basics
 
 import (
 	"fmt"
 	dio "net/http"
 )
 
-func main() {
+func main2() {
 	fmt.Println("Hello go standard library")
 	resp, err := dio.Get("https://jsonplaceholder.typicode.com/todos/1")
 	if err != nil {
